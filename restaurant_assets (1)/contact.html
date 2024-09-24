@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Restaurant KEA</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant KEA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home page">Home</a></li>
+            <li><a href="menu.html" title="Menu page">Menu</a></li>
+            <li><a href="contact.html" title="Contact page">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <address>
+                <p>
+                    <span>Guldbergsgade 29N</span>
+                    <span>2200 Copenhagen</span>
+                </p>
+                <p>Phone no.: <a href="tel:20825370" title="Phone Restaurant KEA">20 82 53 70</a></p>
+                <p>E-mail: <a href="mailto:info@restaurantkea.dk" title="Email Restaurant KEA">info@restaurantkea.dk</a></p>
+            </address>
+            <img src="img/map.jpg" alt="Map">
+        </section>
+        <form action="mailto:info@restaurantkea.dk" method="POST">
+            <fieldset>
+                <legend>Contact form</legend>
+                
+                <form action="" method="post">
+                    <label for="name">Full name</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+        
+                    <label for="phone">Phone no.</label><br>
+                    <input type="text" id="phone" name="phone" required><br><br>
+        
+                    <label for="email">E-mail</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+        
+                    <label for="persons">Persons</label><br>
+                    <input type="number" id="persons" name="persons" value="2" min="1" required><br><br>
+        
+                    <label for="datetime">Date and time</label><br>
+                    <input type="datetime-local" id="datetime" name="datetime" required><br><br>
+        
+                    <label for="info">Further information</label><br>
+                    <textarea id="info" name="info" rows="4"></textarea><br><br>
+        
+                    <input type="submit" value="Send">
+                </form>
+            </fieldset>
+        
+            <p>&copy; 2023 KEA Development</p>
+        
+        </body>
+        </html>
